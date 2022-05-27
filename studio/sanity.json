@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "rhudev-valorant-theme-sanity",
+    "name": "studio",
     "basePath": "/studio"
   },
   "api": {
