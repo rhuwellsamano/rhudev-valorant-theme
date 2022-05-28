@@ -1,9 +1,10 @@
 import Poster from "./poster.webp";
 import Button from "../Button";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+// import { IoLogoJavascript } from "@react-icons/all-files/fa/IoLogoJavascript";
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
 export default function Example() {
   return (
@@ -34,9 +35,7 @@ export default function Example() {
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                   <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                    <span className="block text-white font-tungstenBold tracking-wide">
-                      Software Engineer
-                    </span>
+                    <span className="block text-white">Software Engineer</span>
                     <span className="block text-valorant-red">
                       & UX/UI Designer
                     </span>
@@ -72,7 +71,7 @@ export default function Example() {
           <div className="">
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
               <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-                Trusted by over 5 very average small businesses
+                My Signature Tech Stack
               </p>
               <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
