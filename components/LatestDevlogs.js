@@ -1,3 +1,7 @@
+import BackgroundText from "./BackgroundText";
+import DigitalBackground from "./DigitalBackground/DigitalBackground";
+import SectionHeaderMotion from "./SectionHeaderMotion";
+
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
   {
@@ -58,15 +62,28 @@ const posts = [
 
 export default function LatestDevlogs() {
   return (
-    <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+    <div className="relative bg-valorant-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <DigitalBackground />
       <div className="absolute inset-0">
-        <div className="bg-white h-1/3 sm:h-2/3" />
+        <div className="bg-valorant-white h-1/3 sm:h-2/3" />
       </div>
+
+      <BackgroundText />
+
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-            From the blog
-          </h2>
+          <SectionHeaderMotion>
+            <h2
+              className="z-20 overflow-hidden relative text-valorant-red font-tungstenBold
+              translate-y-[24%] lg:translate-y-[20%]
+              leading-[0.95]
+            text-[3.44rem] md:text-[6.25rem] lg:text-[7.5rem]
+            py-1.5 lg:py-0"
+            >
+              DEVLOGS
+            </h2>
+          </SectionHeaderMotion>
+
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
             libero labore natus atque, ducimus sed.

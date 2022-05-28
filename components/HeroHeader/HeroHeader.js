@@ -13,10 +13,10 @@ export default function Example() {
         <div>
           {/* Hero card */}
           <div className="relative">
-            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-opacity-0" />
-            <div className="max-w-full max-h-full mx-auto">
+            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-opacity-0 " />
+            <div className="max-w-full max-h-full mx-auto cutoff-corner">
               <div className="relative max-h-full shadow-xl sm:overflow-hidden">
-                <div className="absolute inset-0">
+                <div className="absolute inset-0 ">
                   <video
                     poster={Poster}
                     autoPlay
@@ -31,19 +31,22 @@ export default function Example() {
                     />
                   </video>
 
-                  <div className="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
+                  <div className="absolute inset-0 mix-blend-multiply bg-gradient-to-r from-indigo-500 via-slate-900 to-indigo-500" />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                   <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                    <span className="block text-white">Software Engineer</span>
-                    <span className="block text-valorant-red">
-                      & UX/UI Designer
+                    <span className="block text-white font-valorant">
+                      Hey, I'm <span className="text-valorant-red">Rhu!</span>
+                    </span>
+                    <span className="block text-valorant-white font-valorant text-3xl">
+                      Full Stack Software Engineer + UX/UI Designer
+                    </span>
+                    <span className="block text-valorant-white font-valorant text-3xl">
+                      Game Developer + Content Creator + Brand Strategist
                     </span>
                   </h1>
                   <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                    occaecat fugiat aliqua.
+                    I'm a Digital Creator of all things, from games to web.
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">

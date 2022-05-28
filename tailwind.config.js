@@ -11,12 +11,15 @@ module.exports = {
       tungstenBold: ["Tungsten-Bold"],
       dinw1g: ["DIN Next W1G"],
       ffmark: ["MarkSCOffcW05"],
+      valorant: ["Valorant"],
+      opificioBold: ["opicifioBold"],
     },
     extend: {
       colors: {
         "valorant-red": "#fa4454",
+        "valorant-white": "#ece8e1",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-clip-path")],
 };

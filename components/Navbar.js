@@ -1,4 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
+import Button from "./Button";
+
 const navigation = [
   { name: "About", href: "#" },
   { name: "Projects", href: "#" },
@@ -10,7 +12,7 @@ export default function Navbar() {
   return (
     <header className="bg-gradient-to-r from-gray-800/50 to-zinc-800/50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
-        <div className="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
+        <div className="w-full py-6 flex items-center justify-between border-b border-valorant-red lg:border-none">
           <div className="flex items-center">
             <a href="#">
               <span className="sr-only">Workflow</span>

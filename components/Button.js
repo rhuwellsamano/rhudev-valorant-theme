@@ -10,10 +10,10 @@ const Button = () => {
     >
       <span className="border-gray-400 border-r border-l w-full absolute  left-0 h-[calc(50%-0.375rem)] border-t top-0"></span>
       <span className="border-gray-400 border-r border-l w-full absolute  left-0 h-[calc(50%-0.375rem)] border-b bottom-0"></span>
-      <div className="relative overflow-hidden leading-[1.15] bg-valorant-red">
+      <div className="relative overflow-hidden leading-[1.15] bg-valorant-red ">
         <div className="bg-[#0f1923] -left-[5%] -translate-x-full -skew-x-12 absolute w-[120%] top-0 group-hover:left-[110%] easy-out duration-300 h-[105%]"></div>
         <div className="relative">
-          <div className="text-white px-[1.875rem] py-[1.1875rem] group-hover:text-white">
+          <div className="text-white px-[1.875rem] py-[1.1875rem] group-hover:text-white ">
             BUTTON!
           </div>
           <span

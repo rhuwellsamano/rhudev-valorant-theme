@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "Valorant";
+  src: url("../assets/fonts/valorant/Valorant.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Mark Pro";
   src: url("../assets/fonts/markpro/MarkPro-Bold.eot");
   src: url("../assets/fonts/markpro/MarkPro-Bold.eot?#iefix")
@@ -80,6 +88,74 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "Opificio_Bold";
+  src: url("../assets/fonts/opificio/Opificio_Bold.eot");
+  src: url("../assets/fonts/opificio/Opificio_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/opificio/Opificio_Bold.woff2") format("woff2"),
+    url("../assets/fonts/opificio/Opificio_Bold.woff") format("woff"),
+    url("../assets/fonts/opificio/Opificio_Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "opificiobold-rounded";
+  src: url("../assets/fonts/opificio/opificio_bold_rounded-webfont.woff2")
+      format("woff2"),
+    url("../assets/fonts/opificio/opificio_bold_rounded-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opificiolight";
+  src: url("../assets/fonts/opificio/opificio_light-webfont.woff2")
+      format("woff2"),
+    url("../assets/fonts/opificio/opificio_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opificiolight-rounded";
+  src: url("../assets/fonts/opificio/opificio_light_rounded-webfont.woff2")
+      format("woff2"),
+    url("../assets/fonts/opificio/opificio_light_rounded-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opificioregular";
+  src: url("../assets/fonts/opificio/opificio_regular-webfont.woff2")
+      format("woff2"),
+    url("../assets/fonts/opificio/opificio_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opificioregular-rounded";
+  src: url("../assets/fonts/opificio/opificio_rounded-webfont.woff2")
+      format("woff2"),
+    url("../assets/fonts/opificio/opificio_rounded-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cutoff-corner {
+  --g: #000, #0000 1deg 179deg, #000 180deg;
+  --mask: conic-gradient(from -225deg at bottom 40px left 40px, var(--g)) 0 100%/100%
+    100% no-repeat;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
 
 .geo-bg {
