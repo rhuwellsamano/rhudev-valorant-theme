@@ -38,10 +38,10 @@ export default function Example() {
                     <span className="block text-white font-valorant">
                       Hey, I'm <span className="text-valorant-red">Rhu!</span>
                     </span>
-                    <span className="block text-valorant-white font-valorant text-3xl">
+                    <span className="block text-valorant-white font-Opificio_Bold text-3xl">
                       Full Stack Software Engineer + UX/UI Designer
                     </span>
-                    <span className="block text-valorant-white font-valorant text-3xl">
+                    <span className="block text-valorant-white font-Opificio_Bold text-3xl">
                       Game Developer + Content Creator + Brand Strategist
                     </span>
                   </h1>

@@ -31,7 +31,7 @@ export default function ValoNavbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-base font-medium text-white hover:text-valorant-red font-Opificio_Bold uppercase"
+                  className="text-xl opacity-80 font-medium text-white hover:text-valorant-red font-Opificio_Bold uppercase"
                 >
                   {link.name}
                 </a>
@@ -43,7 +43,7 @@ export default function ValoNavbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-base font-medium text-white hover:text-valorant-red font-Opificio_Bold uppercase"
+                  className="text-xl opacity-80 font-medium text-white hover:text-valorant-red font-Opificio_Bold uppercase"
                 >
                   {link.name}
                 </a>

@@ -12,7 +12,7 @@ module.exports = {
       dinw1g: ["DIN Next W1G"],
       ffmark: ["MarkSCOffcW05"],
       valorant: ["Valorant"],
-      opificioBold: ["opicifioBold"],
+      Opificio_Bold: ["Opificio_Bold"],
     },
     extend: {
       colors: {
