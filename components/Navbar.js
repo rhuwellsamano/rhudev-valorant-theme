@@ -1,14 +1,14 @@
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = [
-  { name: "Solutions", href: "#" },
-  { name: "Pricing", href: "#" },
-  { name: "Docs", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "About", href: "#" },
+  { name: "Projects", href: "#" },
+  { name: "Blog", href: "#" },
+  { name: "Store", href: "#" },
 ];
 
 export default function Navbar() {
   return (
-    <header className="bg-valorant-red">
+    <header className="bg-gradient-to-r from-gray-800/50 to-zinc-800/50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
           <div className="flex items-center">
@@ -25,7 +25,7 @@ export default function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-base font-medium text-white hover:text-indigo-50"
+                  className="text-base font-medium text-white hover:text-valorant-red"
                 >
                   {link.name}
                 </a>
@@ -35,13 +35,13 @@ export default function Navbar() {
           <div className="ml-10 space-x-4">
             <a
               href="#"
-              className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
+              className="inline-block bg-valorant-red py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
             >
               Sign in
             </a>
             <a
               href="#"
-              className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
+              className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-valorant-red hover:bg-indigo-50"
             >
               Sign up
             </a>
