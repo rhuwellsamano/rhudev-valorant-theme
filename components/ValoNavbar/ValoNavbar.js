@@ -15,43 +15,47 @@ const rightNavi = [
 
 export default function ValoNavbar() {
   return (
-    <header className="bg-gradient-to-r from-gray-800/50 to-zinc-800/50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
-        <div className="w-full py-6 flex items-center justify-between border-b border-valorant-red lg:border-none">
-          <div className="flex items-center">
-            <a href="#">
-              <img
-                className="h-10 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white"
-                alt=""
-              />
-            </a>
-            <div className="hidden ml-10 space-x-8 lg:block">
-              {leftNavi.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-xl opacity-80 font-medium text-white hover:text-valorant-red font-Opificio_Bold uppercase"
-                >
-                  {link.name}
-                </a>
-              ))}
-            </div>
+    <div className="bg-white">
+      <header className="bg-gradient-to-r from-gray-800/5 to-zinc-800/5">
+        <nav
+          className="ml-[15%] mx-auto px-4 sm:px-6 py-0 my-0 border-b-red-800"
+          aria-label="Top"
+        >
+          <div className="w-full flex items-center justify-between border-b border-valorant-red lg:border-none">
+            <div className="flex items-center">
+              <div className="hidden mr-10 space-x-[200px] lg:block">
+                {leftNavi.map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-lg opacity-80 text-[16px] text-slate-300 hover:text-valorant-red font-Opificio_Bold uppercase tracking-widest leading-none"
+                  >
+                    {link.name}
+                  </a>
+                ))}
+              </div>
 
-            <div className="hidden ml-10 space-x-8 lg:block">
-              {rightNavi.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-xl opacity-80 font-medium text-white hover:text-valorant-red font-Opificio_Bold uppercase"
-                >
-                  {link.name}
-                </a>
-              ))}
+              <div className="valonavbar-middle-button bg-slate-300 bg-opacity-80 mx-0 my-0 py-2">
+                <p className="text-[32px] opacity-80 text-slate font-tungstenBold uppercase tracking-[.12em]">
+                  Portfolio
+                </p>
+              </div>
+
+              <div className="hidden ml-10 space-x-[200px] lg:block">
+                {rightNavi.map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-lg opacity-80 text-[16px] text-slate-300 hover:text-valorant-red font-Opificio_Bold uppercase tracking-widest"
+                  >
+                    {link.name}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
+    </div>
   );
 }

@@ -5,7 +5,7 @@ import ValoNavbar from "./ValoNavbar/ValoNavbar";
 const Layout = ({ children }) => {
   return (
     <div className="content geo-bg">
-      <ValoNavbar />
+      {/* <ValoNavbar /> */}
       {children}
       <Footer />
     </div>

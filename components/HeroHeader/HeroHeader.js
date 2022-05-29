@@ -1,5 +1,6 @@
 import Poster from "./poster.webp";
 import Button from "../Button";
+import ValoNavbar from "../ValoNavbar/ValoNavbar";
 
 // import { IoLogoJavascript } from "@react-icons/all-files/fa/IoLogoJavascript";
 // function classNames(...classes) {
@@ -14,8 +15,8 @@ export default function Example() {
           {/* Hero card */}
           <div className="relative">
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-opacity-0 " />
-            <div className="max-w-full max-h-full mx-auto cutoff-corner">
-              <div className="relative max-h-full shadow-xl sm:overflow-hidden">
+            <div className="max-w-full max-h-full min-w-max min-h-screen cutoff-corner">
+              <div className="relative max-h-full min-h-screen shadow-xl sm:overflow-hidden">
                 <div className="absolute inset-0 ">
                   <video
                     poster={Poster}
@@ -33,7 +34,8 @@ export default function Example() {
 
                   <div className="absolute inset-0 mix-blend-multiply bg-gradient-to-r from-indigo-500 via-slate-900 to-indigo-500" />
                 </div>
-                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                <ValoNavbar />
+                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-80 lg:px-8">
                   <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                     <span className="block text-white font-valorant">
                       Hey, I'm <span className="text-valorant-red">Rhu!</span>
@@ -56,12 +58,7 @@ export default function Example() {
                       >
                         Get started
                       </a>
-                      <a
-                        href="#"
-                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-valorant-red bg-opacity-60 hover:bg-opacity-70 sm:px-8"
-                      >
-                        Live demo
-                      </a>
+
                       <Button />
                     </div>
                   </div>
